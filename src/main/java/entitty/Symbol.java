@@ -11,7 +11,7 @@ public class Symbol implements Component {
 
     public Symbol() {
     }
-    public String get(){
+    public String getString(){
         return value.toString();
     }
 }

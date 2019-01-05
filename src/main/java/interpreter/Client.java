@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Client {
+    private static final String DIGIT_PATTERN = "\\d+";
     private ArrayList<Expression> listExpression;
     ToReverseNotation toReverseNotation = new ToReverseNotation();
 
@@ -35,7 +36,7 @@ public class Client {
                     listExpression.add(new ExpressionLeftShift());
                     break;
                 default:
-                    if (lexeme.matches("\\d+")) {
+                    if (lexeme.matches(DIGIT_PATTERN)) {
                         int value = Integer.valueOf(lexeme);
                         listExpression.add(new ExpressionNumber(value));
                     }

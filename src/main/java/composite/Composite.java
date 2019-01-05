@@ -22,10 +22,10 @@ public abstract class Composite implements Component {
     public void remove(Component component){
         children.remove(component);
     }
-    public String get(){
+    public String getString(){
         StringBuilder strBuilder = new StringBuilder();
         for (Component component:children) {
-          strBuilder.append(component.get());
+            strBuilder.append(component.getString());
         }
         return strBuilder.toString();
     }

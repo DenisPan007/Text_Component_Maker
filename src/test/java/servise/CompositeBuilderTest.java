@@ -26,7 +26,7 @@ public class CompositeBuilderTest {
                 " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 79 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using (Content here), content here, making it look like readable English. \n" +
                 " It is a 1213 established fact that a reader will be of a page when looking at its layout.\n" +
                 "\tBye.\n";
-        textComp.get();
-        assertEquals(expectedText, textComp.get());
+        textComp.getString();
+        assertEquals(expectedText, textComp.getString());
     }
 }

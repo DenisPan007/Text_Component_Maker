@@ -5,10 +5,10 @@ import composite.Composite;
 
 public class Sentence extends Composite {
     @Override
-    public String get(){
+    public String getString(){
         StringBuilder strBuilder = new StringBuilder();
         for (Component component:children) {
-            strBuilder.append(component.get()).append(" ");
+            strBuilder.append(component.getString()).append(" ");
         }
         int length = strBuilder.length() - 1;
         strBuilder.setLength(length);

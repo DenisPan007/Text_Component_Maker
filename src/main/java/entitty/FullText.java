@@ -5,10 +5,10 @@ import composite.Composite;
 
 public class FullText extends Composite {
     @Override
-    public String get() {
+    public String getString() {
         StringBuilder strBuilder = new StringBuilder();
         for (Component component : children) {
-            strBuilder.append(component.get()).append('\n');
+            strBuilder.append(component.getString()).append('\n');
         }
         return strBuilder.toString();
     }

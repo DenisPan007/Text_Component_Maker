@@ -3,13 +3,21 @@ package servise.sorter;
 import composite.Component;
 import composite.Composite;
 import entitty.FullText;
+import exeption.NotValidArgumentException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 
 
 public class SorterText implements Sorter {
-    public Component sort(Composite composite, Comparator comparator){
+    private static final Logger LOGGER = LogManager.getLogger(SorterText.class);
+    public Component sort(Composite composite, Comparator comparator) throws NotValidArgumentException {
+        if (composite == null || comparator == null){
+            LOGGER.error("Null argument found");
+            throw new NotValidArgumentException("Null argument found");
+        }
         ArrayList<Component> list = (ArrayList<Component>) composite.getChildren();
         list.sort(comparator);
         Composite resultComp = new FullText();

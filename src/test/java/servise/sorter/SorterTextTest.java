@@ -6,10 +6,7 @@ import entitty.FullText;
 import entitty.Paragraph;
 import entitty.Sentence;
 import org.junit.Test;
-import servise.CompositeBuilder;
-import servise.FileReaderService;
-import servise.comporator.ComporatorBySentenceAmount;
-import servise.parser.*;
+import servise.comporator.ComparatorBySentenceAmount;
 
 import java.util.Comparator;
 
@@ -19,7 +16,7 @@ public class SorterTextTest {
 
     @Test
     public void sort() throws Exception {
-        Comparator<Composite> comp= new ComporatorBySentenceAmount();
+        Comparator<Composite> comp= new ComparatorBySentenceAmount();
         Sorter sorter = new SorterText() ;
         Sentence s1 = new Sentence();
         Sentence s2 = new Sentence();

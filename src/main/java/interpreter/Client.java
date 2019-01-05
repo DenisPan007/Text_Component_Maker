@@ -6,7 +6,7 @@ import java.util.List;
 public class Client {
     private static final String DIGIT_PATTERN = "\\d+";
     private ArrayList<Expression> listExpression;
-    ToReverseNotation toReverseNotation = new ToReverseNotation();
+    private ToReverseNotation toReverseNotation = new ToReverseNotation();
 
     public Client(String expression) {
         listExpression = new ArrayList<>();

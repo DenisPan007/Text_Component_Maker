@@ -29,4 +29,19 @@ public abstract class Composite implements Component {
         }
         return strBuilder.toString();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Composite)) return false;
+
+        Composite composite = (Composite) o;
+
+        return getChildren() != null ? getChildren().equals(composite.getChildren()) : composite.getChildren() == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return getChildren() != null ? getChildren().hashCode() : 0;
+    }
 }

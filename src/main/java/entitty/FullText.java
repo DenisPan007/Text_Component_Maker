@@ -12,4 +12,5 @@ public class FullText extends Composite {
         }
         return strBuilder.toString();
     }
+
 }

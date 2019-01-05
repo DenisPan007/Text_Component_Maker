@@ -1,6 +1,6 @@
 package entitty;
 
-import composite.Component;
+import servise.composite.Component;
 
 public class Symbol implements Component {
     private Character value;

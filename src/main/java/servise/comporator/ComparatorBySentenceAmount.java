@@ -1,7 +1,7 @@
 package servise.comporator;
 
-import composite.Component;
-import composite.Composite;
+import servise.composite.Component;
+import servise.composite.Composite;
 
 import java.util.Comparator;
 import java.util.List;

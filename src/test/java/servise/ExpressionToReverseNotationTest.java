@@ -1,6 +1,6 @@
 package servise;
 
-import interpreter.ToReverseNotation;
+import servise.interpreter.ToReverseNotation;
 import org.junit.Test;
 
 import java.util.Arrays;

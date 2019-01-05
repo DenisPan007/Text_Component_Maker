@@ -1,6 +1,6 @@
 package servise.parser;
 
-import composite.Component;
+import servise.composite.Component;
 import entitty.Sentence;
 
 import java.util.ArrayList;

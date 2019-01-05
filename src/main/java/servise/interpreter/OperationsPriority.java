@@ -1,4 +1,4 @@
-package interpreter;
+package servise.interpreter;
 
 public class OperationsPriority {
     public int count(String str){

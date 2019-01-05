@@ -1,7 +1,7 @@
 package entitty;
 
-import composite.Component;
-import composite.Composite;
+import servise.composite.Component;
+import servise.composite.Composite;
 
 public class FullText extends Composite {
     @Override

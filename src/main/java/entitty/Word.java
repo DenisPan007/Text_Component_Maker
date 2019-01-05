@@ -1,6 +1,6 @@
 package entitty;
 
-import composite.Composite;
+import servise.composite.Composite;
 public class Word extends Composite {
 
 }

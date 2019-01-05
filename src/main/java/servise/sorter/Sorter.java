@@ -1,7 +1,7 @@
 package servise.sorter;
 
-import composite.Component;
-import composite.Composite;
+import servise.composite.Component;
+import servise.composite.Composite;
 import exeption.NotValidArgumentException;
 
 import java.util.Comparator;

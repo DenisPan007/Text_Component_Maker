@@ -1,7 +1,7 @@
 package servise;
 
-import composite.Component;
-import composite.Composite;
+import servise.composite.Component;
+import servise.composite.Composite;
 import entitty.FullText;
 import servise.parser.Parser;
 

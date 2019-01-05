@@ -1,4 +1,4 @@
-package interpreter;
+package servise.interpreter;
 
 public class ExpressionNumber implements Expression{
     private int number;

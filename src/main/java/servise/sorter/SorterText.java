@@ -1,7 +1,7 @@
 package servise.sorter;
 
-import composite.Component;
-import composite.Composite;
+import servise.composite.Component;
+import servise.composite.Composite;
 import entitty.FullText;
 import exeption.NotValidArgumentException;
 import org.apache.logging.log4j.LogManager;

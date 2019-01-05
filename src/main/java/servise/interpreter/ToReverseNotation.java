@@ -1,4 +1,4 @@
-package interpreter;
+package servise.interpreter;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

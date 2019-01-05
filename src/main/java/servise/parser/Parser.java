@@ -1,6 +1,6 @@
 package servise.parser;
 
-import composite.Component;
+import servise.composite.Component;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package servise;
 
 
-import composite.Component;
+import servise.composite.Component;
 import exeption.ReadFileException;
 import org.junit.Test;
 import servise.parser.*;

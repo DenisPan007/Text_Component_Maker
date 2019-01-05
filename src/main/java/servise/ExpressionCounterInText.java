@@ -1,6 +1,6 @@
 package servise;
 
-import interpreter.Client;
+import servise.interpreter.Client;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

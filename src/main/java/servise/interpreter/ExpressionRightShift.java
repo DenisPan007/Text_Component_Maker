@@ -1,4 +1,4 @@
-package interpreter;
+package servise.interpreter;
 
 public class ExpressionRightShift implements  Expression {
     public void interpret(Context context) {

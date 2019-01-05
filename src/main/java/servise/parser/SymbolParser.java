@@ -1,6 +1,6 @@
 package servise.parser;
 
-import composite.Component;
+import servise.composite.Component;
 import entitty.Symbol;
 import java.util.ArrayList;
 import java.util.List;
